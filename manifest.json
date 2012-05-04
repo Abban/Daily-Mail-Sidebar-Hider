@@ -1,0 +1,16 @@
+{
+    "name": "Daily Mail Sidebar Blocker",
+    "version": "1.0",
+    "description": "Never see that darn sidebar again on the Daily Mail site.",
+    "icons":{
+        "128": "icon_128.png",
+        "48": "icon_48.png"
+    },
+
+    "content_scripts": [
+        {
+            "matches": ["http://www.dailymail.co.uk/*"],
+            "css": ["style.css"]
+        }
+    ]
+}
