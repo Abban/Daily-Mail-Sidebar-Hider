@@ -1,5 +1,6 @@
 {
     "name": "Daily Mail Sidebar Blocker",
+    "manifest_version": 2,
     "version": "1.0",
     "description": "Never see that darn sidebar again on the Daily Mail site.",
     "icons":{
